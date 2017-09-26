@@ -62,8 +62,7 @@ to provide the segments for the SIGN digit.  Since there is no known compatable 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_140523.jpg)
 All Displays are ON!
 
-It worked OK, but later I realized that if the displays were behind a cardstock
-printout, behind the smoked grey plexiglas they look a lot like the original DSKY EL 
+It worked OK, but later I realized that if the displays were behind a cardstockprintout, behind the smoked grey plexiglas they look a lot like the original DSKY EL 
 displays.  But the LEDs were too far from the card stock to be seen.  I then developed a
 pair of circuit boards, one to hold the LEDs and the other provides a light mask. This
 brings the sign digit near to the display. 67lb. White Cover Card stock (Staples **Item 679482** to be exact)
@@ -124,7 +123,7 @@ When selecting the SMT LEDs make sure you get them close to the brightness and c
 
 I can post some details on how to put these together.  But basically, you need to diffuse the light or the viewing angle gets critical.  A simple piece of scotch tape but hot melt glue may also work.  
 
-The parts placement is pretty simple, The anode of the first LED connects to the respective pin.  The two LED's cathodes and anodes for each segment are connected together. The cathodes of the 2nd LEDs connect to the common pins.  If you forget one LED or get one in backwards... *no light!*  The Eagle Files are at: 
+The parts placement is pretty simple, The anode of the first LED connects to the respective pin.  The two LED's cathodes and anodes for each segment are connected together. The cathodes of the 2nd LEDs connect to the common pins.  If you forget one LED or get one in backwards it's like Christmas tree light strings... *no light for you!*  
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/uDSKY%20Hardware/DSKY_DISP/DS_PLUS%20Files/20170219_095406.jpg)
 Plus Display
