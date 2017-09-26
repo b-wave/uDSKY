@@ -1,6 +1,6 @@
 # uDSKY PROJECT
 ## A Physical implementaion of an Apollo AGC DSKY. 
-### *with USB 2.0 Connectivity for PC simulators
+ *...with USB 2.0 Connectivity for PC simulators*
 
 This assembly and firmware has sucessfully been used to control both
 John Pultorak's Block1 Simulator vers 1.16 in C++ and Ronald Burkey's
