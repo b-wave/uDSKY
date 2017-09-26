@@ -13,9 +13,28 @@ Why did I do this?  Ultimately, it is a clock. I intend to have a standalone
 version to do navigation demonstation experiments and become a "moon clock" to track
 the current position, phase, and distance to the moon - *...in real time!*
 
-The prototype shown here has hand cut plastics so it looks
+What it is not... A 1:1 scale model of a DSKY.  How I arrived at the scaling was 
+I took the best head-on photo of a DSKY I could find and scaled it to match the 
+smallest descrete LED 7-segment green *-ish* displays i could find.
+
+It turned out that at that scale, the Keys were  ~.75" on center, which was nice
+and almost exactly 0.7" Square. The front panel was about 7.0" x 6.5" so about, but
+not exactly, half the size of a real DSKY. The wholw thing sandwiches nicely together
+using plexiglas plates and hardware spacers, which I will provide laser cut patterns for.
+The whole assembly is remarkably sturdy ane even kind of hefty too.  
+
+There are two other circuit boards I am developing.  The INDICATOR boards for the LEDs
+since I used perf boards for this prototype.  The POWER REGULATOR board for stand alone
+operation on 12V dc, and illuminating and controlling the VERB, NOUN, and PROG illumination
+and the keyboard backlighting. These will be controlled the same as the other LEDs
+but thru an isolator to control 12V to theses diodes. I also have an idea to use LEDs
+amd some clear plexiglas to simulate the long EL strips between the three registers - 
+but this is still in the *idea phase*. 
+
+The prototype shown here has hand cut plastics so it looks, well it really is, 
 a little sloppy.  I used this matte black plastic i got from TAP Plastics so it would 
-hold paint a little better than glossy plastic.
+hold paint a little better than glossy plastic. I have not painted anything yet so 
+it looks a little daek side, even *darth-DSKY* right now. 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_135148.jpg)
 Running the LED Test program 1 
 
@@ -35,7 +54,7 @@ this is quite usable.
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_135230.jpg)
 Every Other INDIC Is On.
 
-SEG G and one DP are used in the first display for each of the three registors
+ISEG G and one DP are used in the first display for each of the three registors
 to provide the segments for the SIGN digit.  Since there is no known compatable 
 SIGN LED Display - i put an array of SMT LEDs on the circuit board to represent this 
 digit.   
@@ -48,20 +67,19 @@ displays.  But the LEDs were too far from the card stock to be seen.  I then dev
 pair of circuit boards, one to hold the LEDs and the other provides a light mask. This
 brings the sign digit near to the display.  As you can see with the card stock the 
 uDSKY is very simular to the DSKY as you cant really see the digits until they are
-illuminated. 
+ illuminated. 
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_134940.jpg)
 With power off 
 
+
+
+# Apollo uDSKY's  Keys 
 The Keys are Cherry MX series. These have a real nice clicky feel and best of all
 they can support custom keycaps and can be illuminated! 
 
-# Apollo uDSKY's  Keys
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20160903_105214.jpg)
-
-The key caps are from: 
-
-<http://xkeys.com/accessories/Keycaps.php> 
+The key caps are from:  <http://xkeys.com/accessories/Keycaps.php> 
 
 They are not .75" x .75 which would be ideal but they have a little curve on the bottom
 which makes the laser printed labels a little tricky to line up. But it works fairly well.
@@ -90,6 +108,10 @@ on the ends don't precicely line up anyway on one side, it helps to rotate those
 Matrix of Keys
 
 # Apollo uDSKY's  Registers Sign Digits
+I developed a little circuit board *set* that will give a sign digit for each register.  There are actully two other ways to 
+get the sign digits. First, simply put in another 7-segment display. The G segment will be (-) and the DP will represent (+) 
+...*blank is octal as usual*  Second, the board has pad for SMT LEDs that form the signs.  G and DP illumiate the pairs of
+LEDs but this arrangement has the distance problem, but you can still use the mask board to make the displays look better.
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/uDSKY%20Hardware/DSKY_DISP/DS_PLUS%20Files/20170219_095621.jpg)
 
