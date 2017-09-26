@@ -38,6 +38,23 @@ They are not .75" x .75 which would be ideal but they have a little curve on the
 which makes the laser printed labels a little tricky to line up. But it works fairly well.
 You will need 19 caps. 
 
+![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20160903_105235.jpg)
+Keys with relegendable keycaps for cherry mx switches
+
+The Keys are simply mounted on a *slightly* modifued SF MN breakout board.  The next version
+may contain all 19 keys in one board.  The 1 pins are all connected for ROWS and the 2 pins are for columns.  
+
+![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20160903_111600.jpg)
+SF Breakout connections.
+
+The X/Y pattern is fairly self-explanitory.  The final assembly feels like holding some cain-mail armor. 
+The only difficulties were to use small wire "U" shapes instead of straight from pin to pin. This makes the 
+spacing of the keys line up to the holes on teh base plate a little eaiser.  The second is the two columns 
+on the ends don precicely line up anyway, it helps to rotate those mounts 90deg. 
+
+![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20160903_165413.jpg)
+Matrix of Keys
+
 # Apollo uDSKY's  Registers Sign Digits
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/uDSKY%20Hardware/DSKY_DISP/DS_PLUS%20Files/20170219_095621.jpg)
