@@ -16,7 +16,7 @@ the current position, phase, and distance to the moon - *...in real time!*
 
 What it is not... A 1:1 scale model of a DSKY.  How I arrived at the scaling was 
 I took the best head-on photo of a DSKY I could find and scaled it to match the 
-smallest descrete LED 7-segment green *-ish* displays i could find.
+smallest descrete LED 7-segment *green-ish* displays I could find.
 
 It turned out that at that scale, the Keys were  ~.75" on center, which was nice
 eand almost exactly 0.75" Square. The front panel was about 7.0" x 6.5" so about, but
@@ -25,8 +25,8 @@ using plexiglas plates and hardware spacers, which I will provide laser cut patt
 The whole assembly is remarkably sturdy ane even kind of hefty too.  The keys and circuit 
 boards were attached by small torx head "thread rolling" screws for plastic.  I think 
 the ones i got were about 2 AWG, and 1/8" long.  I got them on e-bay and i don't havethe link, 
-there were 100's of them in a box for a few dollars. They should be easy tofind. 
-I'll update a link when i find a good supplier again. 
+there were 100's of them in a box for a few dollars. They should be easy to find. 
+I'll update a link when I find a good supplier again. 
 
 There are two other circuit boards I am developing.  The INDICATOR boards for the LEDs
 since I used perf boards for this prototype.  The POWER REGULATOR board for stand alone
@@ -39,7 +39,7 @@ but this is still in the *idea phase*.
 The prototype shown here has hand cut plastics so it looks, well it really is, 
  a little sloppy.  I used this matte black plastic i got from TAP Plastics so it would 
 hold paint a little better than glossy plastic. I have not painted anything yet so 
-it looks a little daek side, even *darth-DSKY* right now. 
+it looks a little from the dark side, even *darth-DSKY* right now. 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_135148.jpg)
 Running the LED Test program 1 
 
@@ -60,13 +60,12 @@ this is quite usable.
 Every Other INDIC Is On.
 
 Only the SEGMENT G and DP are used in the first display for each of the three registors
-to provide the segments for the SIGN digit.  Since there is no known compatable 
-SIGN LED Display - i put an array of SMT LEDs on the circuit board to represent this 
+to provide the segments for the SIGN digit.  Since there is no known compatable SIGN LED Display - i put an array of SMT LEDs on the circuit board to represent this 
 digit.   
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_140523.jpg)
 All Displays are ON!
 
-It worked OK, but later i relized that if the displays were behind a cardstock
+It worked OK, but later I relized that if the displays were behind a cardstock
 printout, behind the smoked grey plexiglas they look a lot like the original DSKY EL 
 displays.  But the LEDs were too far from the card stock to be seen.  I then developed a 
 pair of circuit boards, one to hold the LEDs and the other provides a light mask. This
@@ -106,8 +105,8 @@ SF Breakout connections.
 The X/Y row - column pattern is fairly self-explanitory.  The final assembly feels like holding some chain-mail armor. 
 The only difficulties were to use small wire "U" shapes instead of straight from pin to pin. This makes the 
 spacing of the keys line up to the holes on the base plate a little eaiser.  The second is the two columns 
-on the ends don't precicely line up anyway on one side, it helps to rotate those two keys 90deg. 
-*see on the right hand side of bottom view:*
+on the ends don't line up anyway on one side, it helps to flip those two end keys, the pads match and the keycap will
+still go on correctly. *NOTE: see the flip keys on on the right hand side of bottom view:*
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20160903_165413.jpg)
 Matrix of Keys
