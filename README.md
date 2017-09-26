@@ -1,19 +1,20 @@
 # uDSKY PROJECT
 ## A Physical implementaion of an Apollo AGC DSKY. 
- *...with USB 2.0 Connectivity for PC simulators*
+*...with USB 2.0 Connectivity for PC simulators*
 
 This assembly and firmware has sucessfully been used to control both
 John Pultorak's Block1 Simulator vers 1.16 in C++ and Ronald Burkey's
 Block 2 AGC simulators on <http://www.ibiblio.org/apollo/> 
 Further, the Simulation runs great on Raspberry Pi.  I will fork the 
-files needed for both simulators.  
+files needed for both simulators. The Teensy 3.2 used in this has a plug in
+board that contains a Real time clock and 9 DOF navigation sensors.
 
-Why did I do this?  Ultimately, its a clock. I intend to have a standalone
+Why did I do this?  Ultimately, it is a clock. I intend to have a standalone
 version to do navigation demonstation experiments and become a "moon clock" to track
-the current position, phase, and distance to the moon - *real time!
+the current position, phase, and distance to the moon - *...in real time!*
 
 The prototype shown here has hand cut plastics so it looks
-a little sloppy.  I used this matte black plastic so it would 
+a little sloppy.  I used this matte black plastic i got from TAP Plastics so it would 
 hold paint a little better than glossy plastic.
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_135148.jpg)
 Running the LED Test program 1 
