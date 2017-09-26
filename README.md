@@ -1,4 +1,3 @@
-The 
 
 # uDSKY Physical implementaion of an Apollo AGC DSKY. 
 
@@ -29,7 +28,7 @@ The Keys are Cherry MX series. These have a real nice clicky feel and best of al
 they can support custom keycaps and can be illuminated! 
 
 # Apollo uDSKY's  Keys
-![uDSKY] (https://github.com/b-wave/uDSKY/blob/master/Files/20160903_105214.jpg)
+![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20160903_105214.jpg)
 
 The key caps are from: 
 
