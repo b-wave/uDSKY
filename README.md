@@ -8,8 +8,8 @@ John Pultorak's Block1 Simulator vers 1.16 in C++ and Ronald Burkey's
 Block 2 AGC simulators on <http://www.ibiblio.org/apollo/> 
 Further, the Simulation runs great on Raspberry Pi.  I will fork the 
 files needed for both simulators. The Teensy 3.2 used in this has a plug in
-board that contains a Real time clock and 9 DOF navigation sensors.
-s
+board that contains a Real time clock and navigation sensors.
+
 Why did I do this?  Ultimately, it is a clock. I intend to have a standalone
 version to do navigation demonstation experiments and become a "moon clock" to track
 the current position, phase, and distance to the moon - *...in real time!*
@@ -17,7 +17,6 @@ the current position, phase, and distance to the moon - *...in real time!*
 What it is not... A 1:1 scale model of a DSKY.  How I arrived at the scaling was 
 I took the best head-on photo of a DSKY I could find and scaled it to match the 
 smallest descrete LED 7-segment *green-ish* displays I could find.
-
 It turned out that at that scale, the Keys were  ~.75" on center, which was nice
 eand almost exactly 0.75" Square. The front panel was about 7.0" x 6.5" so about, but
 not exactly, half the size of a real DSKY. The wholw thing sandwiches nicely together
@@ -53,52 +52,44 @@ that will be better.
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161008_122015.jpg)
 Indicator Holders
-
 As you can see there is still some leakage between wells of the Indicator lamps but 
 this is quite usable. 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_135230.jpg)
 Every Other INDIC Is On.
 
 Only the SEGMENT G and DP are used in the first display for each of the three registors
-to provide the segments for the SIGN digit.  Since there is no known compatable SIGN LED Display - i put an array of SMT LEDs on the circuit board to represent this 
-digit.   
+to provide the segments for the SIGN digit.  Since there is no known compatable SIGN LED Display - i put an array of SMT LEDs on the circuit board to represent this digit.   
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_140523.jpg)
 All Displays are ON!
 
-It worked OK, but later I relized that if the displays were behind a cardstock
+It worked OK, but later I realized that if the displays were behind a cardstock
 printout, behind the smoked grey plexiglas they look a lot like the original DSKY EL 
-displays.  But the LEDs were too far from the card stock to be seen.  I then developed a 
+displays.  But the LEDs were too far from the card stock to be seen.  I then developed a
 pair of circuit boards, one to hold the LEDs and the other provides a light mask. This
-brings the sign digit near to the display.  As you can see with the card stock the 
-uDSKY is very simular to the DSKY as you cant really see the digits until they are
- illuminated. 
-
+brings the sign digit near to the display. 67lb. White Cover Card stock (Staples **Item 679482** to be exact)
+As you can see with the card stock the uDSKY is very simular to the DSKY as you cant really see the digits until they are
+illuminated.
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_134940.jpg)
 With power off 
 
-
-
 # Apollo uDSKY's  Keys 
-The Keys are Cherry MX series. These have a real nice clicky feel and best of all
-they can support custom keycaps and can be illuminated! 
+The Keys are Cherry MX series. These have a real nice clicky feel and best of allthey can support custom keycaps and can be illuminated! 
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20160903_105214.jpg)
-The key caps are from:  <http://xkeys.com/accessories/Keycaps.php> 
-
+#The key caps are from:  <http://xkeys.com/accessories/Keycaps.php> 
 They are not .75" x .75 which would be ideal but they have a little curve on the bottom
 which makes the laser printed labels a little tricky to line up. But it works fairly well.
 You will need 19 caps (4 orders will get you 20). I got both the clear and green. I thnk the black ones
-will be opaque so they can't be illuminated. 
+owill be opaque so they can't be illuminated. 
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20160903_105235.jpg)
-Keys with relegendable keycaps for cherry mx switches
+<Keys with relegendable keycaps for cherry mx switches
 
 The Keys are simply mounted on an *OSH Park Version*  of the SF MX breakout board. You can order them 
-or (BOB-13773) they are identical: https://www.sparkfun.com/products/13773 The next version I make 
-may contain all 19 keys in one board.  The 1 pins are all connected for ROWS and the 2 pins are for columns.
+#or (BOB-13773) they are identical: https://www.sparkfun.com/products/13773 The next version I make may contain all 19 keys in one board.  The 1 pins are all connected for ROWS and the 2 pins are for columns.
 Check out the Teensey code for the pattern and hookup. 
 <https://github.com/b-wave/uDSKY/tree/master/DSKY%20Arduino%20Files>
-
+ 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20160903_111600.jpg)
 SF Breakout connections.
 
@@ -120,12 +111,10 @@ LEDs but this arrangement has the distance problem, but you can still use the ma
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/uDSKY%20Hardware/DSKY_DISP/DS_PLUS%20Files/20170219_095621.jpg)
 
 
-This board will allow a pretty good substitute for the non-existent compatible LED sign digits for an **Apollo DSKY** display.  You will also need the  [**DS_MASK.brd** ](https://oshpark.com/shared_projects/6qTKqnak" Order from OSH Park!") for each display if you want the displays to be more *segment-ty?*   There are also some additional masking and diffusing techniques  that can be done to make these look really good. 
+This board will allow a pretty good substitute for the non-existent compatible LED sign digits for an **Apollo DSKY** display.  You will also need the   **DS_MASK.brd** <https://oshpark.com/shared_projects/6qTKqnak> for each display if you want the displays to be more *segment-ty?*   There are also some additional masking and diffusing techniques  that can be done to make these look really good.
 
-https://github.com/b-wave/uDSKY/blob/master/uDSKY%20Hardware/DSKY_DISP/DS_PLUS%20Files/20170219_095401.jpg
-
-## _NOTES:_
-This is intended to be used with a 0.39" 10-pin LED displays such as **LTS-4301G** that were used on the **uDSKY** display. 
+##
+This board set are intended to be used with a 0.39" 10-pin LED displays such as **LTS-4301G** that were used on the **uDSKY** display. 
 
 The minus **(-)** are controlled by the standard *G - Segment* Pin **1** with 2 LEDs in series.  The **(+)** is a combination of the **"g1"**  and **"g2"** Segs *and* the vertical segments *(some times referred to as **"h"** and **"J"**)* which are connected to the **"DP"** pin **6**.  The **Common** pins are **8** and **3**.  Because both displays are *two* LEDs in series this should simplify non-MUX displays as well.
 
@@ -133,14 +122,14 @@ The minus **(-)** are controlled by the standard *G - Segment* Pin **1** with 2 
 
 When selecting the SMT LEDs make sure you get them close to the brightness and color wavelength.  For example , these LED displays have: **569 nm**  (green) with an avg. intensity = **2200 µCD** @ If =10mA.
 
- I will post some details on how to put these together.  But basically, you need to diffuse the light or the viewing angle gets critical.  I used a simple piece of scotch tape but hot melt glue may also work.  
+I can post some details on how to put these together.  But basically, you need to diffuse the light or the viewing angle gets critical.  A simple piece of scotch tape but hot melt glue may also work.  
 
 The parts placement is pretty simple, The anode of the first LED connects to the respective pin.  The two LED's cathodes and anodes for each segment are connected together. The cathodes of the 2nd LEDs connect to the common pins.  If you forget one LED or get one in backwards... *no light!*  The Eagle Files are at: 
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/uDSKY%20Hardware/DSKY_DISP/DS_PLUS%20Files/20170219_095406.jpg)
 Plus Display
 
-A couple of baffles between the G and the vertical segments are also needed or when only (-) is displayed the other segments are still slightly visible.  I used a couple scrap pieces of black wire insulation wedged between the segments to block this.
+A couple of baffles between the G and the vertical segments are also needed or when only (-) is displayed the other segments are still slightly visible.  I used a couple scrap pieces of black wire insulation wedged between the segments to block this.  The messy dabs of hot melt glue used to hold these in place are also visible.
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/uDSKY%20Hardware/DSKY_DISP/DS_PLUS%20Files/DS_PLUS%20Files/20170219_095505.jpg)
 Light Baffels 
@@ -148,7 +137,7 @@ Light Baffels
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/uDSKY%20Hardware/DSKY_DISP/DS_PLUS%20Files/20170219_095401.jpg)
 Minus Display
 
-Use two 0.1" 5-pin headers to hold the two boards together.  Mount the header on *top* of this board (long pins go thru the board)   Then put the mask board on top of the header. The boards are separated by the plastic header. Push the pins flush to the  top **MSK_Brd** *Pins 1, 6, 8, and 3* now have to be soldered on the bottom of this board.  You can solder the mask board's pins all in place if you want to - after you verify everything is working OK of course, there are no electrical connections.
+Two 0.1" 5-pin headers to hold the two boards together.  Mount the header on *top* of this board (long pins go thru the board)   Then put the mask board on top of the header. The boards are separated by the plastic header. Push the pins flush to the  top **MSK_Brd** *Pins 1, 6, 8, and 3* now have to be soldered on the bottom of this board.  You can solder the mask board's pins all in place if you want to - after you verify everything is working OK of course, there are no electrical connections to any other pads. 
 
 
 
