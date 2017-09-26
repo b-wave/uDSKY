@@ -1,6 +1,5 @@
-
 # uDSKY PROJECT
-## *A Physical implementaion of an Apollo AGC DSKY. 
+## A Physical implementaion of an Apollo AGC DSKY. 
 ### *with USB 2.0 Connectivity for PC simulators
 
 This assembly and firmware has sucessfully been used to control both
