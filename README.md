@@ -32,7 +32,7 @@ they can support custom keycaps and can be illuminated!
 
 # Apollo uDSKY's  Registers Sign Digits
 
-![alt text](uDSKY/uDSKY Hardware/DSKY_DISP/DS_PLUS Files/20170219_095621.jpg  "Display")
+![uDSKY](uDSKY/uDSKY Hardware/DSKY_DISP/DS_PLUS Files/20170219_095621.jpg)
 
 
 This board will allow a pretty good substitute for the non-existent compatible LED sign digits for an **Apollo DSKY** display.  You will also need the  [**DS_MASK.brd** ](https://oshpark.com/shared_projects/6qTKqnak" Order from OSH Park!") for each display if you want the displays to be more *segment-ty?*   There are also some additional masking and diffusing techniques  that can be done to make these look really good. 
