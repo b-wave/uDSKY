@@ -21,6 +21,7 @@ pair of circuit boards, one to hold the LEDs and the other provides a light mask
 brings the sign digit near to the display.  As you can see with the card stock the 
 uDSKY is very simular to the DSKY as you cant really see the digits until they are
 illuminated. 
+
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_134940.jpg)
 With power off 
 
@@ -36,21 +37,26 @@ The key caps are from:
 
 They are not .75" x .75 which would be ideal but they have a little curve on the bottom
 which makes the laser printed labels a little tricky to line up. But it works fairly well.
-You will need 19 caps. 
+You will need 19 caps (4 orders will get you 20). I got both the clear and green. I thnk the black ones
+will be opaque so they can't be illuminated. 
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20160903_105235.jpg)
 Keys with relegendable keycaps for cherry mx switches
 
-The Keys are simply mounted on a *slightly* modifued SF MN breakout board.  The next version
-may contain all 19 keys in one board.  The 1 pins are all connected for ROWS and the 2 pins are for columns.  
+The Keys are simply mounted on a *slightly* modifued SF MX breakout board. You can order them 
+and (BOB-13773) they will work fine: https://www.sparkfun.com/products/13773 The next version I make 
+may contain all 19 keys in one board.  The 1 pins are all connected for ROWS and the 2 pins are for columns.
+Check out the Teensey code for the pattern and hookup. 
+<https://github.com/b-wave/uDSKY/tree/master/DSKY%20Arduino%20Files>
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20160903_111600.jpg)
 SF Breakout connections.
 
-The X/Y pattern is fairly self-explanitory.  The final assembly feels like holding some cain-mail armor. 
+The X/Y row - column pattern is fairly self-explanitory.  The final assembly feels like holding some chain-mail armor. 
 The only difficulties were to use small wire "U" shapes instead of straight from pin to pin. This makes the 
-spacing of the keys line up to the holes on teh base plate a little eaiser.  The second is the two columns 
-on the ends don precicely line up anyway, it helps to rotate those mounts 90deg. 
+spacing of the keys line up to the holes on the base plate a little eaiser.  The second is the two columns 
+on the ends don't precicely line up anyway on one side, it helps to rotate those two keys 90deg. 
+*see on the right hand side of bottom view:*
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20160903_165413.jpg)
 Matrix of Keys
@@ -73,19 +79,22 @@ The minus **(-)** are controlled by the standard *G - Segment* Pin **1** with 2 
 
 When selecting the SMT LEDs make sure you get them close to the brightness and color wavelength.  For example , these LED displays have: **569 nm**  (green) with an avg. intensity = **2200 µCD** @ If =10mA.
 
- I will post some details on how to put these together.  But basically, you need to diffuse the light or the viewing angle gets critical.  I used a simple piece of scotch tape but hot melt glue may also work.  A couple of baffles between the G and the vertical segments are also needed or when only (-) is displayed the other segments are still slightly visible.  I used a couple scrap pieces of black wire insulation wedged between the segments to block this.
+ I will post some details on how to put these together.  But basically, you need to diffuse the light or the viewing angle gets critical.  I used a simple piece of scotch tape but hot melt glue may also work.  
 
 The parts placement is pretty simple, The anode of the first LED connects to the respective pin.  The two LED's cathodes and anodes for each segment are connected together. The cathodes of the 2nd LEDs connect to the common pins.  If you forget one LED or get one in backwards... *no light!*  The Eagle Files are at: 
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/uDSKY%20Hardware/DSKY_DISP/DS_PLUS%20Files/20170219_095406.jpg)
 Plus Display
 
+A couple of baffles between the G and the vertical segments are also needed or when only (-) is displayed the other segments are still slightly visible.  I used a couple scrap pieces of black wire insulation wedged between the segments to block this.
+
+![uDSKY](https://github.com/b-wave/uDSKY/blob/master/uDSKY%20Hardware/DSKY_DISP/DS_PLUS%20Files/DS_PLUS%20Files/20170219_095505.jpg)
+Light Baffels 
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/uDSKY%20Hardware/DSKY_DISP/DS_PLUS%20Files/20170219_095401.jpg)
 Minus Display
 
 Use two 0.1" 5-pin headers to hold the two boards together.  Mount the header on *top* of this board (long pins go thru the board)   Then put the mask board on top of the header. The boards are separated by the plastic header. Push the pins flush to the  top **MSK_Brd** *Pins 1, 6, 8, and 3* now have to be soldered on the bottom of this board.  You can solder the mask board's pins all in place if you want to - after you verify everything is working OK of course, there are no electrical connections.
 
-![uDSKY](https://github.com/b-wave/uDSKY/blob/master/uDSKY%20Hardware/DSKY_DISP/DS_PLUS%20Files/DS_PLUS%20Files/20170219_095505.jpg)
-Light Baffels 
+
 
