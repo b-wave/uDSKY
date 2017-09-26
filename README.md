@@ -1,4 +1,4 @@
-
+The 
 
 # uDSKY Physical implementaion of an Apollo AGC DSKY. 
 
@@ -8,11 +8,11 @@ hold paint a little better than glossy plastic.
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_135148.jpg)
 Running the LED Test program 1 
 
-The circuit boards are mostly attached to a rear plate.  The Teensey is
-mounted on female pins on the main display board.  The Teensy actully slips thru
+The circuit boards are mostly attached to a 1/8" plexiglas rear plate.  The Teensey is
+mounted on female pin headers on the main display board.  The Teensy actully slips thru
 a recetangular hole in the rear mounting plate. The displays are multiplexed 
 with the DP segments from the first two controllong the LED INDICATORS.  The 
-SEG G and one DP are used in the first display for each of teh three registors
+SEG G and one DP are used in the first display for each of the three registors
 to provide the segments for the SIGN digit.  Since there is no known compatable 
 SIGN LED Display - i put an array of SMT LEDs on the circuit board to represent this 
 digit.  It worked OK, but later i relized that if the displays were behind a cardstock
@@ -28,6 +28,16 @@ With power off
 The Keys are Cherry MX series. These have a real nice clicky feel and best of all
 they can support custom keycaps and can be illuminated! 
 
+# Apollo uDSKY's  Keys
+![uDSKY] (https://github.com/b-wave/uDSKY/blob/master/Files/20160903_105214.jpg)
+
+The key caps are from: 
+
+<http://xkeys.com/accessories/Keycaps.php> 
+
+They are not .75" x .75 which would be ideal but they have a little curve on the bottom
+which makes the laser printed labels a little tricky to line up. But it works fairly well.
+You will need 19 caps. 
 
 # Apollo uDSKY's  Registers Sign Digits
 
