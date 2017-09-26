@@ -18,10 +18,14 @@ I took the best head-on photo of a DSKY I could find and scaled it to match the
 smallest descrete LED 7-segment green *-ish* displays i could find.
 
 It turned out that at that scale, the Keys were  ~.75" on center, which was nice
-and almost exactly 0.7" Square. The front panel was about 7.0" x 6.5" so about, but
+and almost exactly 0.75" Square. The front panel was about 7.0" x 6.5" so about, but
 not exactly, half the size of a real DSKY. The wholw thing sandwiches nicely together
 using plexiglas plates and hardware spacers, which I will provide laser cut patterns for.
-The whole assembly is remarkably sturdy ane even kind of hefty too.  
+The whole assembly is remarkably sturdy ane even kind of hefty too.  The keys and circuit 
+boards were attached by small torx head "thread rolling" screws for plastic.  I think 
+the ones i got were about 2 AWG, and 1/8" long.  I got them on e-bay and i don't have
+the link, there were 100's of them in a box for a few dollars. They should be easy to
+find.  I'll update a link when i find a good supplier again. 
 
 There are two other circuit boards I am developing.  The INDICATOR boards for the LEDs
 since I used perf boards for this prototype.  The POWER REGULATOR board for stand alone
