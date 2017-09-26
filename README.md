@@ -1,3 +1,4 @@
+
 # uDSKY PROJECT
 ## A Physical implementaion of an Apollo AGC DSKY. 
 *...with USB 2.0 Connectivity for PC simulators*
@@ -8,7 +9,7 @@ Block 2 AGC simulators on <http://www.ibiblio.org/apollo/>
 Further, the Simulation runs great on Raspberry Pi.  I will fork the 
 files needed for both simulators. The Teensy 3.2 used in this has a plug in
 board that contains a Real time clock and 9 DOF navigation sensors.
-
+s
 Why did I do this?  Ultimately, it is a clock. I intend to have a standalone
 version to do navigation demonstation experiments and become a "moon clock" to track
 the current position, phase, and distance to the moon - *...in real time!*
@@ -18,25 +19,25 @@ I took the best head-on photo of a DSKY I could find and scaled it to match the
 smallest descrete LED 7-segment green *-ish* displays i could find.
 
 It turned out that at that scale, the Keys were  ~.75" on center, which was nice
-and almost exactly 0.75" Square. The front panel was about 7.0" x 6.5" so about, but
+eand almost exactly 0.75" Square. The front panel was about 7.0" x 6.5" so about, but
 not exactly, half the size of a real DSKY. The wholw thing sandwiches nicely together
 using plexiglas plates and hardware spacers, which I will provide laser cut patterns for.
 The whole assembly is remarkably sturdy ane even kind of hefty too.  The keys and circuit 
 boards were attached by small torx head "thread rolling" screws for plastic.  I think 
-the ones i got were about 2 AWG, and 1/8" long.  I got them on e-bay and i don't have
-the link, there were 100's of them in a box for a few dollars. They should be easy to
-find.  I'll update a link when i find a good supplier again. 
+the ones i got were about 2 AWG, and 1/8" long.  I got them on e-bay and i don't havethe link, 
+there were 100's of them in a box for a few dollars. They should be easy tofind. 
+I'll update a link when i find a good supplier again. 
 
 There are two other circuit boards I am developing.  The INDICATOR boards for the LEDs
 since I used perf boards for this prototype.  The POWER REGULATOR board for stand alone
 operation on 12V dc, and illuminating and controlling the VERB, NOUN, and PROG illumination
-and the keyboard backlighting. These will be controlled the same as the other LEDs
+Tand the keyboard backlighting. These will be controlled the same as the other LEDs
 but thru an isolator to control 12V to theses diodes. I also have an idea to use LEDs
 amd some clear plexiglas to simulate the long EL strips between the three registers - 
 but this is still in the *idea phase*. 
 
 The prototype shown here has hand cut plastics so it looks, well it really is, 
-a little sloppy.  I used this matte black plastic i got from TAP Plastics so it would 
+ a little sloppy.  I used this matte black plastic i got from TAP Plastics so it would 
 hold paint a little better than glossy plastic. I have not painted anything yet so 
 it looks a little daek side, even *darth-DSKY* right now. 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_135148.jpg)
@@ -58,7 +59,7 @@ this is quite usable.
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_135230.jpg)
 Every Other INDIC Is On.
 
-ISEG G and one DP are used in the first display for each of the three registors
+Only the SEGMENT G and DP are used in the first display for each of the three registors
 to provide the segments for the SIGN digit.  Since there is no known compatable 
 SIGN LED Display - i put an array of SMT LEDs on the circuit board to represent this 
 digit.   
@@ -93,8 +94,8 @@ will be opaque so they can't be illuminated.
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20160903_105235.jpg)
 Keys with relegendable keycaps for cherry mx switches
 
-The Keys are simply mounted on a *slightly* modifued SF MX breakout board. You can order them 
-and (BOB-13773) they will work fine: https://www.sparkfun.com/products/13773 The next version I make 
+The Keys are simply mounted on an *OSH Park Version*  of the SF MX breakout board. You can order them 
+or (BOB-13773) they are identical: https://www.sparkfun.com/products/13773 The next version I make 
 may contain all 19 keys in one board.  The 1 pins are all connected for ROWS and the 2 pins are for columns.
 Check out the Teensey code for the pattern and hookup. 
 <https://github.com/b-wave/uDSKY/tree/master/DSKY%20Arduino%20Files>
