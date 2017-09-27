@@ -23,13 +23,16 @@ Its not to scale or even a 1:1 scale model of a DSKY.  How I arrived at the scal
 I took the best head-on photo of a DSKY I could find and scaled it to match the 
 smallest descrete LED 7-segment *green-ish* displays I could find.
 It turned out that at that scale, the Keys were  ~.75" on center, which was nice
-eand almost exactly 0.75" Square. The front panel was about 7.0" x 6.5" so about, but
-not exactly, half the size of a real DSKY. The whole thing sandwiches nicely together
-using plexiglas plates and hardware spacers, which I will provide laser cut patterns for.
+eand almost exactly 0.75" Square. Also by happy accident the Teensey fits between the top LED
+Displays. The front panel measurments was about 7.0" x 6.5" so about, but
+not exactly, half the size of a real DSKY. You will see some early revfernces to mini-DSKY 
+Which is the same thing as uDSKY.  The whole thing sandwiches nicely together
+using plexiglas plates - which I will provide laser cut patterns for -  and 4 AWG hardware spacers.
+
 The **uDSKY** assembly is remarkably sturdy and even kind of hefty too.  The keys and circuit 
 boards were attached by small torx head "thread rolling" screws for plastic.  
 The Torx heads allow for close proximity to components and I think a little easier to install straight.
-The hardware I got were about 2 AWG, ( for a 1/16" pilot hole) and 1/8" long.  
+The hardware I used were surplus and about 2 AWG, ( for a 1/16" pilot hole) and 1/8" long.  
 I got them on e-bay and i don't have the link, there were 100's of them in a box for a few dollars. 
 They should be easy to find. I'll update a link if I find a good supplier again. 
 
