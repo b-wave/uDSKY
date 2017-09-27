@@ -53,11 +53,15 @@ Running the LED Test program 1
 
 The circuit boards are mostly attached to a 1/8" plexiglas rear plate.  The Teensey is
 mounted on female pin headers on the main display board.  The Teensy actully slips thru
-a recetangular hole in the rear mounting plate. The displays are multiplexed 
-with the DP segments from the first two controllong the LED INDICATORS. The lamps 
+a recetangular hole in the rear mounting plate. 
+
+##Displays
+The displays are multiplexed with the DP segments from the first two controlling the LED INDICATORS. The lamps 
 are separated with a matrix of opaque lattius.  I made the prototype with popcicle
 sticks, which turned out to be a litle short.  I have the plans for laser cut version
-that will be better.
+that will be better. Each lamp is controlled by the decimal point signals, which were 
+not used in the original Apollo DSKY display.  This turned out to be a good parts reduction
+as all the segments and Indicators can be controlle by only 3 LED controller chips. 
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161008_122015.jpg)
 Indicator Holders
