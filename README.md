@@ -77,9 +77,7 @@ that will be better.
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161008_122015.jpg)
 Indicator Holders
 
-It worked OK, but later I realized that if the displays were behind a card stock printout, behind some smoked grey plexiglas 
-they look a lot like the original Apollo DSKY EL displays.  But the LEDs were too far from the card stock to be seen.  I then developed a
-pair of circuit boards, one to hold the LEDs and the other provides a light mask. This brings the sign digit near to the display. 67lb. White Cover Card stock (Staples **Item 679482** to be exact).  I
+In all the dipalys work fine, but later I realized that if the displays were behind a card stock printout, behind some smoked grey plexiglasthey look a lot like the original Apollo DSKY EL displays.  But the LEDs were too far from the card stock to be seen.  I then developed a pair of circuit boards, one to hold the LEDs and the other provides a light mask. This brings the sign digit near to the display. 67lb. White Cover Card stock (Staples **Item 679482** to be exact).  I 
 
 As you can see with the card stock the uDSKY is very simular to the DSKY as you cant really see the digits until they are
 illuminated.
