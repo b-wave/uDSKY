@@ -17,7 +17,7 @@ Why on earth did I do this project?  Ultimately, it is a clock. I intend to have
 version to do navigation demonstation experiments and become a "moon clock" to track
 the current position, phase, and distance to the moon - *...in real time!*
 
-What it is not... 
+### What it is not... 
 Its not to scale or even a 1:1 scale model of a DSKY.  How I arrived at the scaling was 
 I took the best head-on photo of a DSKY I could find and scaled it to match the 
 smallest descrete LED 7-segment *green-ish* displays I could find.
@@ -66,7 +66,7 @@ Only the SEGMENT G and DP are used in the first display for each of the three re
 to provide the segments for the SIGN digit.  Since there is no known compatable SIGN LED Display - i put an array of SMT LEDs on the circuit board to represent this digit.
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_135230.jpg)
-Every Other INDIC is On.
+Every Other INDIC Lamp is On.
 
 As you can see there is still some leakage between wells of the Indicator lamps but 
 this is quite usable. 
@@ -77,7 +77,7 @@ that will be better.
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161008_122015.jpg)
 Indicator Holders
 
-In all the dipalys work fine, but later I realized that if the displays were behind a card stock printout, behind some smoked grey plexiglasthey look a lot like the original Apollo DSKY EL displays.  But the LEDs were too far from the card stock to be seen.  I then developed a pair of circuit boards, one to hold the LEDs and the other provides a light mask. This brings the sign digit near to the display. 67lb. White Cover Card stock (Staples **Item 679482** to be exact).  I 
+In all the dispalys work fine, but later I realized that if the displays were behind a card stock printout, behind some smoked grey plexiglasthey look a lot like the original Apollo DSKY EL displays.  But the LEDs were too far from the card stock to be seen.  I then developed a pair of circuit boards, one to hold the LEDs and the other provides a light mask. This brings the sign digit near to the display. 67lb. White Cover Card stock (Staples **Item 679482** to be exact).  I 
 
 As you can see with the card stock the uDSKY is very simular to the DSKY as you cant really see the digits until they are
 illuminated.
@@ -103,7 +103,7 @@ Check out the Teensey code for the pattern and hookup.
 <https://github.com/b-wave/uDSKY/tree/master/DSKY%20Arduino%20Files>
  
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20160903_111600.jpg)
-SF Breakout connections.
+Breakout Column connections - using the 2 Pads.
 
 The X/Y row - column pattern is fairly self-explanitory.  The final assembly feels like holding some chain-mail armor. 
 The only difficulties were to use small wire "U" shapes instead of straight from pin to pin. This makes the 
