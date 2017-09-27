@@ -10,8 +10,8 @@ Further, the Simulation runs great on Raspberry Pi.  I will fork the
 files needed for both simulators. 
 
 The Teensy 3.2 used in this has a plug in board that contains a Real time clock and navigation sensors.
-<https://www.pjrc.com/store/prop_shield.html>  Which will mount to the =board nicely.  I also included 
-a couple of Apollo Themed Processing PDEs included in <https://github.com/b-wave/uDSKY/tree/master/uDSKY%20IMU>
+<https://www.pjrc.com/store/prop_shield.html>  Which will mount to the board nicely.  I also included 
+a couple of Apollo-theamed Processing PDEs in <https://github.com/b-wave/uDSKY/tree/master/uDSKY%20IMU>
 that work with this board and it can mount to the uDSKY using stacking header pins. 
 
 Why on earth did I do this project?  Ultimately, it is a clock. I intend to have a standalone
