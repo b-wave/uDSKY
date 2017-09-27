@@ -25,9 +25,9 @@ smallest descrete LED 7-segment *green-ish* displays I could find.
 It turned out that at that scale, the Keys were  ~.75" on center, which was nice
 eand almost exactly 0.75" Square. Also by happy accident the Teensey fits between the top LED
 Displays. The front panel measurments was about 7.0" x 6.5" so about, but
-not exactly, half the size of a real DSKY. You will see some early revfernces to mini-DSKY 
-Which is the same thing as uDSKY.  The whole thing sandwiches nicely together
-using plexiglas plates - which I will provide laser cut patterns for -  and 4 AWG hardware spacers.
+not exactly, half the size of a real DSKY. You will see some early refernces to **mini-DSKY** 
+Which is the same thing as **uDSKY**.  The whole thing sandwiches nicely together
+using plexiglas plates - which I will provide laser cut patterns for - and #4 AWG hardware spacers.
 
 The **uDSKY** assembly is remarkably sturdy and even kind of hefty too.  The keys and circuit 
 boards were attached by small torx head "thread rolling" screws for plastic.  
