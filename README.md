@@ -42,7 +42,7 @@ and the keyboard backlighting. Since these are a lot of LEDs involved 12V is use
 These will be controlled the same as the other LEDs using two of the non used DP signals
 but thru an isolator to control 12V to theses diodes. I also have an idea to use LEDs
 amd some clear plexiglas to simulate the long EL strips between the three registers - 
-but this is still in the *idea phase*. 
+ but this is still in the *idea phase*. 
 
 The prototype shown here has hand cut plastics so it looks, well it really is, 
  a little sloppy.  I used this matte black plastic i got from TAP Plastics so it would 
@@ -56,29 +56,31 @@ mounted on female pin headers on the main display board.  The Teensy actully sli
 a recetangular hole in the rear mounting plate. 
 
 ## Displays
-The displays are multiplexed with the DP segments from the first two controlling the LED INDICATORS. The lamps 
-are separated with a matrix of opaque lattius.  I made the prototype with popcicle
-sticks, which turned out to be a litle short.  I have the plans for laser cut version
-that will be better. Each lamp is controlled by the decimal point signals, which were 
-not used in the original Apollo DSKY display.  This turned out to be a good parts reduction
-as all the segments and Indicators can be controlle by only 3 LED controller chips. 
+The displays are multiplexed with the DP segments from the first two controlling the LED INDICATORS.  Each lamp is controlled by the decimal point signals, which were not used in the original Apollo DSKY display.  This turned out to be a good parts reduction
+as all the segments and Indicators can be controlle by only 3 LED controller chips.
 
-![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161008_122015.jpg)
-Indicator Holders
-As you can see there is still some leakage between wells of the Indicator lamps but 
-this is quite usable. 
-![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_135230.jpg)
-Every Other INDIC Is On.
-
-Only the SEGMENT G and DP are used in the first display for each of the three registors
-to provide the segments for the SIGN digit.  Since there is no known compatable SIGN LED Display - i put an array of SMT LEDs on the circuit board to represent this digit.   
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_140523.jpg)
 All Displays are ON!
 
-It worked OK, but later I realized that if the displays were behind a cardstockprintout, behind the smoked grey plexiglas they look a lot like the original DSKY EL 
-displays.  But the LEDs were too far from the card stock to be seen.  I then developed a
-pair of circuit boards, one to hold the LEDs and the other provides a light mask. This
-brings the sign digit near to the display. 67lb. White Cover Card stock (Staples **Item 679482** to be exact)
+Only the SEGMENT G and DP are used in the first display for each of the three registors
+to provide the segments for the SIGN digit.  Since there is no known compatable SIGN LED Display - i put an array of SMT LEDs on the circuit board to represent this digit.
+
+![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_135230.jpg)
+Every Other INDIC is On.
+
+As you can see there is still some leakage between wells of the Indicator lamps but 
+this is quite usable. 
+
+The lamps are separated with a matrix of opaque lattius.  I made the prototype with popcicle
+sticks, which turned out to be a litle short.  I have the plans for laser cut version
+that will be better.
+![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161008_122015.jpg)
+Indicator Holders
+
+It worked OK, but later I realized that if the displays were behind a card stock printout, behind some smoked grey plexiglas 
+they look a lot like the original Apollo DSKY EL displays.  But the LEDs were too far from the card stock to be seen.  I then developed a
+pair of circuit boards, one to hold the LEDs and the other provides a light mask. This brings the sign digit near to the display. 67lb. White Cover Card stock (Staples **Item 679482** to be exact).  I
+
 As you can see with the card stock the uDSKY is very simular to the DSKY as you cant really see the digits until they are
 illuminated.
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_134940.jpg)
