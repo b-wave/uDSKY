@@ -10,8 +10,7 @@ Further, the Simulation runs great on Raspberry Pi.  I will fork the
 files needed for both simulators. 
 
 The Teensy 3.2 used in this has a plug in board that contains a Real time clock and navigation sensors.
-<https://www.pjrc.com/store/prop_shield.html>  Which will mount to the board nicely.  I also included 
-a couple of Apollo-theamed Processing PDEs in <https://github.com/b-wave/uDSKY/tree/master/uDSKY%20IMU>
+<https://www.pjrc.com/store/prop_shield.html>  Which will mount to the board nicely.  I also included a couple of Apollo-theamed Processing PDEs in <https://github.com/b-wave/uDSKY/tree/master/uDSKY%20IMU>
 that work with this board and it can mount to the uDSKY using stacking header pins. 
 
 Why on earth did I do this project?  Ultimately, it is a clock. I intend to have a standalone
@@ -38,8 +37,9 @@ They should be easy to find. I'll update a link if I find a good supplier again.
 
 There are two other circuit boards I am developing.  The INDICATOR boards for the LEDs
 since I used perf boards for this prototype.  The POWER REGULATOR board for stand alone
-operation on 12V dc, and illuminating and controlling the VERB, NOUN, and PROG illumination
-Tand the keyboard backlighting. These will be controlled the same as the other LEDs
+operation on 12V dc, and illuminating and controlling the VERB, NOUN, and PROG LEDs
+and the keyboard backlighting. Since these are a lot of LEDs involved 12V is used for them. 
+These will be controlled the same as the other LEDs using two of the non used DP signals
 but thru an isolator to control 12V to theses diodes. I also have an idea to use LEDs
 amd some clear plexiglas to simulate the long EL strips between the three registers - 
 but this is still in the *idea phase*. 
