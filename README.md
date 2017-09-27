@@ -1,4 +1,4 @@
-
+ 
 # uDSKY PROJECT
 ## A Physical implementaion of an Apollo AGC DSKY. 
 *...with USB 2.0 Connectivity for PC simulators*
@@ -55,7 +55,7 @@ The circuit boards are mostly attached to a 1/8" plexiglas rear plate.  The Teen
 mounted on female pin headers on the main display board.  The Teensy actully slips thru
 a recetangular hole in the rear mounting plate. 
 
-##Displays
+## Displays
 The displays are multiplexed with the DP segments from the first two controlling the LED INDICATORS. The lamps 
 are separated with a matrix of opaque lattius.  I made the prototype with popcicle
 sticks, which turned out to be a litle short.  I have the plans for laser cut version
