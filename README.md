@@ -82,6 +82,13 @@ illuminated.
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_134940.jpg)
 With power off 
 
+The 3D printed chasis is now on version 2.  Here are a couple of shots of the first parts.  It really startedc looking real, and as you can see from the .gif it is a lot better now than the original hand cut plexiglas. 
+
+![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20180612_220918.jpg)
+3D Parts
+
+![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20180612_221135.jpg)
+Keys and displays added
 # Apollo uDSKY's  Keys 
 The Keys are Cherry MX series. These have a real nice clicky feel and best of allthey can support custom keycaps and can be illuminated! 
 
