@@ -72,8 +72,8 @@ this is quite usable.
 The lamps are separated with a matrix of opaque lattius.  I made the prototype with popcicle
 sticks, which turned out to be a litle short.  I have the plans for laser cut version
 that will be better.
-![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161008_122015.jpg)
-Indicator Holders
+![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20180612_221200.jpg)
+Indicator Display Mask
 
 In all the dispalys work fine, but later I realized that if the displays were behind a card stock printout, behind some smoked grey plexiglasthey look a lot like the original Apollo DSKY EL displays.  But the LEDs were too far from the card stock to be seen.  I then developed a pair of circuit boards, one to hold the LEDs and the other provides a light mask. This brings the sign digit near to the display. 67lb. White Cover Card stock (Staples **Item 679482** to be exact).  I 
 
