@@ -44,12 +44,10 @@ but thru an isolator to control 12V to theses diodes. I also have an idea to use
 amd some clear plexiglas to simulate the long EL strips between the three registers - 
  but this is still in the *idea phase*. 
 
-The prototype shown here has hand cut plastics so it looks, well it really is, 
- a little sloppy.  I used this matte black plastic i got from TAP Plastics so it would 
-hold paint a little better than glossy plastic. I have not painted anything yet so 
-it looks a little from the dark side, even *darth-DSKY* right now. 
-![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_135148.jpg)
-Running the LED Test program 1 
+uDSKY in action 9/20/19 on the 50th moonlanding, running on rPI and ran the *actual*appollo 11 softrware, mostly P00 for the entire duration of the flight.   This .gif was when they would have been in lunar orbit at 100hrs 38mins or so MET.  (do .gif display on git?)
+
+![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20190720_103848_1.gif)
+Running Apollo 11 CMD Modue Software. 
 
 The circuit boards are mostly attached to a 1/8" plexiglas rear plate.  The Teensey is
 mounted on female pin headers on the main display board.  The Teensy actully slips thru
