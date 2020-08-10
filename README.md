@@ -7,10 +7,14 @@ This assembly and firmware has sucessfully been used to control both
 John Pultorak's Block1 Simulator vers 1.16 in C++ and Ronald Burkey's
 Block 2 AGC simulators on <http://www.ibiblio.org/apollo/> 
 Further, the Simulation runs great on Raspberry Pi.  I forked the 
-files needed for both simulators. 
+files needed for both simulators. <https://github.com/b-wave/virtualagc> 
+
+I mainly run it on a Rapsberry PI with the intention of embedding the Pi in this chassis. I started a 
+python script that will run the software so I don't have to start the virtual AGC program.... 
+now that is a *work in progress...stay tuned* 
 
 The Teensy 3.2 used in this has a plug in board that contains a Real time clock and navigation sensors.
-<https://www.pjrc.com/store/prop_shield.html>  Which will mount to the board nicely.  I also included a couple of Apollo-theamed Processing PDEs in <https://github.com/b-wave/uDSKY/tree/master/uDSKY%20IMU>
+<https://www.pjrc.com/store/prop_shield.html>  Which will mount to the board nicely.  I also included a couple of Apollo-themed Processing PDEs in <https://github.com/b-wave/uDSKY/tree/master/uDSKY%20IMU>
 that work with this board and it can mount to the uDSKY using stacking header pins. 
 
 Why on earth did I do this project?  Ultimately, it is a clock. I intend to have a standalone
@@ -41,10 +45,10 @@ operation on 12V dc, and illuminating and controlling the VERB, NOUN, and PROG L
 and the keyboard backlighting. Since these are a lot of LEDs involved 12V is used for them. 
 These will be controlled the same as the other LEDs using two of the non used DP signals
 but thru an isolator to control 12V to theses diodes. I also have an idea to use LEDs
-amd some clear plexiglas to simulate the long EL strips between the three registers - 
- but this is still in the *idea phase*. 
+and some clear plexiglas to simulate the long EL strips between the three registers - 
+ but this is still in the *idea phase*...but the testing is showing promise. 
 
-uDSKY in action 9/20/19 on the 50th moonlanding, running on rPI and ran the *actual*appollo 11 softrware, mostly P00 for the entire duration of the flight.   This .gif was when they would have been in lunar orbit at 100hrs 38mins or so MET.  (do .gif display on git?)
+uDSKY in action 9/20/19 on the 50th moonlanding, running on rPI and ran the *actual* Apollo 11 software (C055), mostly P00 for the entire duration of the flight.   This .gif was when they would have been in lunar orbit at 100hrs 38mins or so MET. 
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20190720_103848_1.gif)
 Running Apollo 11 CMD Modue Software. 
@@ -70,25 +74,25 @@ As you can see there is still some leakage between wells of the Indicator lamps 
 this is quite usable. 
 
 The lamps are separated with a matrix of opaque lattius.  I made the prototype with popcicle
-sticks, which turned out to be a litle short.  I have the plans for laser cut version
-that will be better.
+sticks, which turned out to be a litle short.  I made a 3D printed chassis wich is way better! 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20180612_221200.jpg)
 Indicator Display Mask
 
-In all the dispalys work fine, but later I realized that if the displays were behind a card stock printout, behind some smoked grey plexiglasthey look a lot like the original Apollo DSKY EL displays.  But the LEDs were too far from the card stock to be seen.  I then developed a pair of circuit boards, one to hold the LEDs and the other provides a light mask. This brings the sign digit near to the display. 67lb. White Cover Card stock (Staples **Item 679482** to be exact).  I 
+In all the dispalys work fine, but later I realized that if the displays were behind a card stock printout, behind some smoked grey plexiglas they look a lot like the original Apollo DSKY EL displays.  But the LEDs were too far from the card stock to be seen.  I then developed a pair of circuit boards, one to hold the LEDs and the other provides a light mask. This brings the sign digit near to the display. 67lb. White Cover Card stock (Staples **Item 679482** to be exact).  I 
 
 As you can see with the card stock the uDSKY is very simular to the DSKY as you cant really see the digits until they are
 illuminated.
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_134940.jpg)
 With power off 
 
-The 3D printed chasis is now on version 2.  Here are a couple of shots of the first parts.  It really startedc looking real, and as you can see from the .gif it is a lot better now than the original hand cut plexiglas. 
+The 3D printed chasis is now on version 2.  Here are a couple of shots of the first parts.  It really started looking real, and as you can see from the .gif it is a lot better now than the original hand cut plexiglas. 
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20180612_220918.jpg)
 3D Parts
 
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20180612_221135.jpg)
 Keys and displays added
+
 # Apollo uDSKY's  Keys 
 The Keys are Cherry MX series. These have a real nice clicky feel and best of allthey can support custom keycaps and can be illuminated! 
 
