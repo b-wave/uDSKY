@@ -6,7 +6,7 @@
 This assembly and firmware has sucessfully been used to control both
 John Pultorak's Block1 Simulator vers 1.16 in C++ and Ronald Burkey's
 Block 2 AGC simulators on <http://www.ibiblio.org/apollo/> 
-Further, the Simulation runs great on Raspberry Pi.  I will fork the 
+Further, the Simulation runs great on Raspberry Pi.  I forked the 
 files needed for both simulators. 
 
 The Teensy 3.2 used in this has a plug in board that contains a Real time clock and navigation sensors.
