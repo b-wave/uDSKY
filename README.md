@@ -81,9 +81,12 @@ Indicator Display Mask
 In all the dispalys work fine, but later I realized that if the displays were behind a card stock printout, behind some smoked grey plexiglas they look a lot like the original Apollo DSKY EL displays.  But the LEDs were too far from the card stock to be seen.  I then developed a pair of circuit boards, one to hold the LEDs and the other provides a light mask. This brings the sign digit near to the display. 67lb. White Cover Card stock (Staples **Item 679482** to be exact).  I 
 
 As you can see with the card stock the uDSKY is very simular to the DSKY as you cant really see the digits until they are
-illuminated.
+illuminated.  The only issue is the LED must be against the card stock for the effect to work.  I did not have the sign LED digit boards working, and the proto 
+sippley had the LEDs soldered to the main board too far away to be seen.  
+
 ![uDSKY](https://github.com/b-wave/uDSKY/blob/master/Files/20161217_134940.jpg)
-With power off 
+
+*No digits seen With power off*
 
 The 3D printed chasis is now on version 2.  Here are a couple of shots of the first parts.  It really started looking real, and as you can see from the .gif it is a lot better now than the original hand cut plexiglas. 
 
